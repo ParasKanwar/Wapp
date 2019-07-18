@@ -1,0 +1,113 @@
+body {
+  color: #333333;
+  font-family: Arial;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+}
+.main_content {
+  flex-grow: 1;
+}
+body p {
+  font-size: 14px;
+}
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  text-align: right;
+  margin-top: 16px;
+  padding: 13px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 44px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+
+  text-decoration: none;
+}
+
+.robot {
+  width: 250px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: hsl(209, 91%, 46%);
+}
+
+#message-1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+#message-2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #888888;
+}
+
+input {
+  border: 2px solid #cccccc;
+  padding: 8px;
+}
+button {
+  border: 2px solid #888888;
+  padding: 8px;
+  color: black;
+  background: #888888;
+  cursor: pointer;
+}
+button:hover {
+  color: black;
+  background: hsl(209, 91%, 46%);
+}
+.logo {
+  width: 100px;
+  padding-right: 10px;
+}
+.Hlogo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+#About {
+  font-size: 22px;
+}
+.LL {
+  float: none;
+}
+.Help {
+  font-size: 18px;
+}
