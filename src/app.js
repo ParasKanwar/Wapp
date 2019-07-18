@@ -6,9 +6,9 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 //defining paths for express config
-//const publicDirectoryPath = path.join(__dirname, "../public");
-//const viewsPath = path.join(__dirname, "../Template/views");
-//const partialPaths = path.join(__dirname, "../Template/partials");
+const publicDirectoryPath = path.join(__dirname, "../public");
+const viewsPath = path.join(__dirname, "../Template/views");
+const partialPaths = path.join(__dirname, "../Template/partials");
 //setup handel bars into express
 app.set("view engine", "hbs");
 app.set("views", viewsPath);
